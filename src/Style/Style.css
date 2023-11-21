@@ -1,0 +1,74 @@
+
+.buttonDiv{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.paragraph{
+    
+    margin-top: 50px;
+}
+.singleDiv{
+    /* background-color: green; */
+    border-radius: 15px;
+    
+
+}
+.buttons:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 15px 2px grey;
+}
+.reactImg{
+   width: 100%;
+}
+.reactPara{
+    color: green;
+}
+.javascript{
+    color: red;
+}
+.node{
+    color: yellow;
+    background-color: black;
+}
+
+/* NAVBAR */
+
+
+  .contain-1{
+    /* background-color: #4CAF50; */
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+ position: relative;
+ overflow: hidden;
+  }
+
+  .contain-1:hover::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 7, 7, 0.2);
+    animation: anim 2s forwards;
+  }
+
+  @keyframes anim {
+    0% {
+      transform: translateX(0%);
+   }
+    100% {
+      transform: translateX(100%);
+   }
+  }
